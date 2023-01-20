@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22C65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DBOrder" representedClassName="DBOrder" syncable="YES" codeGenerationType="class">
+        <attribute name="endAddressAddress" optional="YES" attributeType="String"/>
+        <attribute name="endAddressCity" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="orderTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="priceAmount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="priceCurrency" optional="YES" attributeType="String"/>
+        <attribute name="startAddressAddress" optional="YES" attributeType="String"/>
+        <attribute name="startAddressCity" optional="YES" attributeType="String"/>
+        <attribute name="vehicleDriverName" optional="YES" attributeType="String"/>
+        <attribute name="vehicleModelName" optional="YES" attributeType="String"/>
+        <attribute name="vehiclePhoto" optional="YES" attributeType="String"/>
+        <attribute name="vehicleRegNumber" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+</model>
